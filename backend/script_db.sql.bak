@@ -1,0 +1,18 @@
+CREATE DATABASE challenge;
+
+
+-- Revenue -> Ingreso
+CREATE TABLE REVENUES (
+    RevenueId 		int IDENTITY(1,1) PRIMARY KEY,
+    RevenueDate 	DATE NOT NULL,
+    RevenueAmount	FLOAT,
+    --UserID			
+);
+
+-- Expenses -> Egresos
+CREATE TABLE EXPENSES(
+    ExpenseId 		int IDENTITY(1,1) PRIMARY KEY,
+    ExpenseDate 	DATE NOT NULL,
+    ExpenseAmount	FLOAT,
+);
+
